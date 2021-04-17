@@ -21,7 +21,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: https://www.frontendmentor.io/solutions/responsive-stats-preview-card-component-using-css-grid-and-flexbox-MJYUHJhLW8
 - Live Site URL: https://jhoellopeyemi.github.io/stats-preview-card-component/
 
 ## My process
