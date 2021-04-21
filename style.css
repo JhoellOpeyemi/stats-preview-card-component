@@ -36,9 +36,9 @@ p {
 .card {
 	background-color: var(--card-background);
 	width: 85%;
-	max-width: 900px;
-	min-height: 70%;
-	max-height: 85%;
+	max-width: 1100px;
+	min-height: 80%;
+	max-height: 90%;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	gap: 0 0.4rem;
@@ -62,14 +62,14 @@ p {
 }
 
 .card-details {
-	padding: 2.5rem 3rem 2.5rem 2.5rem;
+	padding: 3.5rem 4rem 3.5rem 3.5rem;
 }
 
 .card-details-header {
 	color: var(--main-heading);
 	font-family: 'Inter', sans-serif;
-	font-size: 1.6rem;
-	margin-bottom: 1rem;
+	font-size: 1.7rem;
+	margin-bottom: 1.5rem;
 }
 
 .card-details-header span {
@@ -78,8 +78,8 @@ p {
 
 .card-details-p {
 	font-family: 'Lexend Deca', sans-serif;
-	line-height: 1.5;
-	margin-bottom: 3rem;
+	line-height: 1.6;
+	margin-bottom: 4rem;
 }
 
 .card-stats {
@@ -96,11 +96,11 @@ p {
 .stats p {
 	text-transform: uppercase;
 	font-size: 0.6rem;
-	margin-top: 0.5rem;
+	margin-top: 0.6rem;
 }
 
 .attribution {
-	padding-top: 2rem;
+	padding-top: 3rem;
 	font-size: var(--font-size);
 	text-align: center;
 	color: var(--main-paragraph);
