@@ -88,9 +88,11 @@ p {
 	align-items: center;
 }
 
-.stats h3 {
+.stats p:first-child {
 	color: var(--main-heading);
 	font-family: 'Inter', sans-serif;
+	font-size: 1.5rem;
+	font-weight: bold;
 }
 
 .stats p {
@@ -112,7 +114,7 @@ p {
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 800px) {
 	.card {
 		grid-template-columns: 1fr;
 		grid-template-rows: 1fr 2fr;
