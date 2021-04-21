@@ -62,14 +62,14 @@ p {
 }
 
 .card-details {
-	padding: 3.5rem 4rem 3.5rem 3.5rem;
+	padding: 4.3rem 5.1rem 4.3rem 4.3rem;
 }
 
 .card-details-header {
 	color: var(--main-heading);
 	font-family: 'Inter', sans-serif;
-	font-size: 1.7rem;
-	margin-bottom: 1.5rem;
+	font-size: 2.3rem;
+	margin-bottom: 2rem;
 }
 
 .card-details-header span {
@@ -78,8 +78,8 @@ p {
 
 .card-details-p {
 	font-family: 'Lexend Deca', sans-serif;
-	line-height: 1.6;
-	margin-bottom: 4rem;
+	line-height: 1.7;
+	margin-bottom: 4.3rem;
 }
 
 .card-stats {
@@ -91,8 +91,9 @@ p {
 .stats p:first-child {
 	color: var(--main-heading);
 	font-family: 'Inter', sans-serif;
-	font-size: 1rem;
+	font-size: 1.2rem;
 	font-weight: bold;
+	text-transform: uppercase;
 }
 
 .stats p {
@@ -102,7 +103,7 @@ p {
 }
 
 .attribution {
-	padding-top: 3rem;
+	transform: translateY(400%);
 	font-size: var(--font-size);
 	text-align: center;
 	color: var(--main-paragraph);
