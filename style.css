@@ -127,6 +127,7 @@ p {
 
 	.card-details {
 		order: 2;
+		padding: 3rem 4rem;
 	}
 
 	.card-details-header,
@@ -140,9 +141,23 @@ p {
 	}
 }
 
+@media screen and (max-width: 480px) {
+	.card-stats {
+		flex-direction: column;
+	}
+
+	.card-details {
+		padding: 3rem 1.7rem;
+	}
+}
+
 @media screen and (max-width: 450px) {
 	.card-stats {
 		flex-direction: column;
+	}
+
+	.card-details {
+		padding: 3rem 1.5rem;
 	}
 
 	.stats p {
